@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: Kraber
+  m_EditorClassIdentifier: 
+  _gunName: Kraber
+  _gunType: 5
+  gunID: 0
+  _gunDesc: ' The caliber on this monstrosity is outside nearly anything else you''ll
+    find out here. While that may make it unwieldy, it also makes it powerful.'
+  _damage: 230
+  _fireRate: 0.6
+  _inaccuracy: 1.5
+  _armorPen: 80
+  _bulletSpeed: 18
+  _radius: 0.8
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 5056fe3480a1a944eb3776a7a681a61d, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 859257180529c4a448d8fe32bcdad3e5, type: 3}
+  _bulletOriginOffset: {x: 0.9379, y: 0.0076}
+  _shootSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 0
+  _hasLowerRailSlot: 1
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0.9379, y: 0.0076}
+  _opticLoc: {x: 0, y: 0}
+  _lowerRailLoc: {x: 0.2507, y: -0.0621}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

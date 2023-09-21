@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE bulletml SYSTEM "../bulletml.dtd">
+
+<bulletml type="vertical"
+          xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+
+<action label="top">
+
+<repeat>
+ <times>20</times>
+  <actionRef label="circle1"> </actionRef>
+</repeat>
+<wait>30</wait>
+
+</action>
+
+
+<action label="circle1">
+  <fire>
+    <bullet label="BigBullet">
+    <direction type="sequence">180 * $rand</direction>
+    <speed type="absolute">0.4 * $rand + 0.2</speed>
+    </bullet>
+  </fire>
+  <fire>
+    <bullet label="BigBullet">
+    <direction type="aim">0</direction>
+    <speed type="absolute">0.4 * $rand + 0.2</speed>
+    </bullet>
+  </fire>
+</action>
+
+<action label="target1">
+  <fire>
+    <bullet label="BigBullet">
+    <direction type="aim">0</direction>
+    <speed type="absolute">0.4 * $rand + 0.2</speed>
+    </bullet>
+  </fire>
+</action>
+
+</bulletml>

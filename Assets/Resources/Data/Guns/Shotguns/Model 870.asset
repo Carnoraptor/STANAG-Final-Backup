@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: Model 870
+  m_EditorClassIdentifier: 
+  _gunName: Model 870
+  _gunType: 4
+  gunID: 0
+  _gunDesc: This one's a classic, reminiscent of firearms of a bygone era thus brought
+    to your age. You'll enjoy the slamming power the pump-action affords. It's a
+    shame it's not exactly precise, but you aren't looking for a surgical knife.
+  _damage: 16
+  _fireRate: 1
+  _inaccuracy: 23
+  _armorPen: 8
+  _bulletSpeed: 18
+  _radius: 0.7
+  _bulletsAtOnce: 9
+  _bullet: {fileID: 11400000, guid: db2e3103c954d6e44ae66a1e1c77299f, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 7ea027c5ee9f533459c1cb546f18f038, type: 3}
+  _bulletOriginOffset: {x: 0.60836, y: 0.10861}
+  _shootSFX:
+    Guid:
+      Data1: 1879727040
+      Data2: 1172707312
+      Data3: -84980294
+      Data4: 286272207
+    Path: event:/Shotgun SFX/Model870
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 0
+  _hasOpticSlot: 1
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 1
+  _muzzleLoc: {x: 0, y: 0}
+  _opticLoc: {x: -0.3907, y: 0.125}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: -0.1422, y: 0.0791}
+  btwnBulletInBurstTime: 0

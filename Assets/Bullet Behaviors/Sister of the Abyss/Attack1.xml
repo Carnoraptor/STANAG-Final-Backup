@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" ?>
+<!DOCTYPE bulletml SYSTEM "../bulletml.dtd">
+
+<bulletml type="horizontal"
+          xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+
+<action label="top">
+  <actionRef label="circle">
+    <param>0</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>15</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>30</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>45</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>60</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>75</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>90</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>105</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>120</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>135</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>150</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>165</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>180</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>195</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>210</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>225</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>240</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>255</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>270</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>285</param>
+  </actionRef>
+  <actionRef label="circle">
+  <param>300</param>
+</actionRef>
+  <actionRef label="circle">
+    <param>315</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>330</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>345</param>
+  </actionRef>
+  <actionRef label="circle">
+    <param>360</param>
+  </actionRef>
+</action>
+
+
+<action label="circle">
+  <fire>
+  <bullet>
+    <speed>1</speed>
+    <direction type="absolute">$1</direction>
+    <wait>1</wait>
+    <changeSpeed>
+      <speed>0.71</speed>
+      <term>7</term>
+    </changeSpeed>
+  </bullet>
+  </fire>
+</action>
+
+</bulletml>

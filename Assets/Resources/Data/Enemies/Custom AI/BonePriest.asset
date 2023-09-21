@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 203735342df103043bd62f49f353be77, type: 3}
+  m_Name: BonePriest
+  m_EditorClassIdentifier: 
+  _enemyName: Bone Priest
+  _enemyType: 0
+  _enemyID: 0
+  _enemyHP: 2800
+  _enemyArmor: 0
+  _enemyDamage: 0
+  _enemyArmorPierce: 0
+  _enemySpeed: 2
+  _enemyAttackRate: 0
+  _doesContactDamage: 0
+  _contactDamage: 0
+  _contactAP: 0
+  _enemySprite: {fileID: 21300000, guid: 09728dd851df7704ab7587b2513a3477, type: 3}
+  _stopDist: 10
+  _range: 30
+  _bulletsAtOnce: 0
+  _bulletSpeed: 0
+  _inaccuracy: 0
+  _projectilePrefab: {fileID: 0}
+  _projOrigin: {x: 0, y: 0}

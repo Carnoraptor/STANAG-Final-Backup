@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 203735342df103043bd62f49f353be77, type: 3}
+  m_Name: Wackasswheelion
+  m_EditorClassIdentifier: 
+  _enemyName: Wackasswheelion
+  _enemyType: 0
+  _enemyID: 0
+  _enemyHP: 5
+  _enemyArmor: 2
+  _enemyDamage: 20
+  _enemyArmorPierce: 3
+  _enemySpeed: 170
+  _enemyAttackRate: 0.2
+  _doesContactDamage: 1
+  _contactDamage: 30
+  _contactAP: 30
+  _enemySprite: {fileID: 21300000, guid: bde9810f152e3154aba8aa772bbbb815, type: 3}
+  _stopDist: 0
+  _range: 10
+  _bulletsAtOnce: 12
+  _bulletSpeed: 12
+  _inaccuracy: 50
+  _projectilePrefab: {fileID: 2472364319013166716, guid: b498f4b2584f494489f630ce1c70ee7e, type: 3}
+  _projOrigin: {x: 0, y: 0}

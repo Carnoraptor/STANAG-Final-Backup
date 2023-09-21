@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: M1 Garand
+  m_EditorClassIdentifier: 
+  _gunName: M1 Garand
+  _gunType: 1
+  gunID: 0
+  _gunDesc: ' I see warriors brandish these often. Inferior to much steel here, yet
+    still operable. Perhaps you''ll find it interesting.'
+  _damage: 45
+  _fireRate: 4
+  _inaccuracy: 3
+  _armorPen: 8
+  _bulletSpeed: 24
+  _radius: 0.5
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 5056fe3480a1a944eb3776a7a681a61d, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 795d2b55b5b7171498e0f82296bff710, type: 3}
+  _bulletOriginOffset: {x: 0.7503, y: 0.1701}
+  _shootSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 1
+  _hasLowerRailSlot: 1
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0.7503, y: 0.1701}
+  _opticLoc: {x: -0.25, y: 0.188}
+  _lowerRailLoc: {x: 0.3478, y: 0.1255}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

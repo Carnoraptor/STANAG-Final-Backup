@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3d20194a7f327b146aa5510c8496a446
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - glock: {fileID: 11400000, guid: c2918c94a2dca924d9b6d8eb3f619ef5, type: 2}
+  - glockBullet: {fileID: 11400000, guid: 82bdda123e90d094a838fa39b157c943, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

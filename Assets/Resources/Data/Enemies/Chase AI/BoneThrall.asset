@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8c161e6e88fce4fbae397e0a0f5f93, type: 3}
+  m_Name: BoneThrall
+  m_EditorClassIdentifier: 
+  _enemyName: Bone Thrall
+  _enemyType: 1
+  _enemyID: 1
+  _enemyHP: 50
+  _enemyArmor: 4
+  _enemyDamage: 15
+  _enemyArmorPierce: 2
+  _enemySpeed: 1500
+  _enemyAttackRate: 0
+  _doesContactDamage: 1
+  _contactDamage: 15
+  _contactAP: 2
+  _enemySprite: {fileID: 21300000, guid: 869c6b294bdc12046a844536c067745b, type: 3}

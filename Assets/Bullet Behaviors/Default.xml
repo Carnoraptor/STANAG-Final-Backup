@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" ?>
+<bulletml type="vertical" xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+  <action label="top">
+  </action>
+</bulletml>

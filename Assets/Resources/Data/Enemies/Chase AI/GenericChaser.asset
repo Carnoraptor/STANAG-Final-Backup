@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8c161e6e88fce4fbae397e0a0f5f93, type: 3}
+  m_Name: GenericChaser
+  m_EditorClassIdentifier: 
+  _enemyName: Generic Chaser
+  _enemyType: 0
+  _enemyID: 0
+  _enemyHP: 40
+  _enemyArmor: 5
+  _enemyDamage: 30
+  _enemyArmorPierce: 3
+  _enemySpeed: 200
+  _enemyAttackRate: 0
+  _doesContactDamage: 1
+  _contactDamage: 20
+  _contactAP: 10
+  _enemySprite: {fileID: 0}

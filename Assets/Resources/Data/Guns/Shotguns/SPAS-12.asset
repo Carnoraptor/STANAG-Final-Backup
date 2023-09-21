@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: SPAS-12
+  m_EditorClassIdentifier: 
+  _gunName: SPAS-12
+  _gunType: 3
+  gunID: 0
+  _gunDesc: ' The design is quite brutal, which I think you''ll find an affinity
+    for. If not, it won''t be long before you develop such.'
+  _damage: 15
+  _fireRate: 2
+  _inaccuracy: 12
+  _armorPen: 4
+  _bulletSpeed: 14
+  _radius: 1
+  _bulletsAtOnce: 5
+  _bullet: {fileID: 11400000, guid: db2e3103c954d6e44ae66a1e1c77299f, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 7b410c7cd9418ba418764cc6ac178575, type: 3}
+  _bulletOriginOffset: {x: 0.4944, y: 0.0768}
+  _shootSFX:
+    Guid:
+      Data1: -1354118391
+      Data2: 1239254981
+      Data3: -709181259
+      Data4: -192420043
+    Path: event:/Shotgun SFX/SPAS12Shot
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 0
+  _hasOpticSlot: 0
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0, y: 0}
+  _opticLoc: {x: 0, y: 0}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

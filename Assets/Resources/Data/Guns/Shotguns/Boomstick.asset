@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: Boomstick
+  m_EditorClassIdentifier: 
+  _gunName: Boomstick
+  _gunType: 4
+  gunID: 3
+  _gunDesc: ' This boomstick has had some hasty modification performed on it. Once,
+    maybe it was complete, but now it''s simply a husk - albiet a functional one.'
+  _damage: 18
+  _fireRate: 1.4
+  _inaccuracy: 20
+  _armorPen: 3
+  _bulletSpeed: 15
+  _radius: 0.75
+  _bulletsAtOnce: 6
+  _bullet: {fileID: 11400000, guid: db2e3103c954d6e44ae66a1e1c77299f, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: d32045dab16db4f4eadcd30b4d365a56, type: 3}
+  _bulletOriginOffset: {x: 0.5, y: 0.125}
+  _shootSFX:
+    Guid:
+      Data1: -1350218074
+      Data2: 1171382232
+      Data3: 691639219
+      Data4: -1178473977
+    Path: event:/Shotgun SFX/BoomstickShot
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 0
+  _hasOpticSlot: 0
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0, y: 0}
+  _opticLoc: {x: 0, y: 0}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

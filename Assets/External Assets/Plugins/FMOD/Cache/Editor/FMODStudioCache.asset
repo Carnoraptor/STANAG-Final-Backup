@@ -1,0 +1,793 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8996163802417698115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Machine Gun SFX/M249Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Machine Gun SFX/M249Shot
+  Guid:
+    Data1: -619034400
+    Data2: 1092414280
+    Data3: -1522198865
+    Data4: -1969288073
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8292858535027201176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol SFX/GlockShot
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol SFX/GlockShot
+  Guid:
+    Data1: -367080157
+    Data2: 1328058490
+    Data3: 1040763298
+    Data4: 1063084822
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7821182560437654268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SMG SFX/VectorShot
+  m_EditorClassIdentifier: 
+  Path: event:/SMG SFX/VectorShot
+  Guid:
+    Data1: -644500648
+    Data2: 1328282092
+    Data3: -1651673174
+    Data4: -1950253346
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6981037326780486125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault Rifle SFX/SCARShot
+  m_EditorClassIdentifier: 
+  Path: event:/Assault Rifle SFX/SCARShot
+  Guid:
+    Data1: 1347127699
+    Data2: 1263828966
+    Data3: -715280196
+    Data4: -1251831914
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6368594859836339650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Bank A.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Bank A.bank
+  Name: Bank A
+  StudioPath: bank:/Enemy/Bank A
+  lastModified: 638290939713646119
+  FileSizes:
+  - Name: Desktop
+    Value: 45984
+  Exists: 1
+--- !u!114 &-5717815014270201585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol SFX/M1911Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol SFX/M1911Shot
+  Guid:
+    Data1: -1769758679
+    Data2: 1168555120
+    Data3: 523383179
+    Data4: -124212584
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5496187414169040083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/ForgottenStation
+  m_EditorClassIdentifier: 
+  Path: event:/Music/ForgottenStation
+  Guid:
+    Data1: 1879918720
+    Data2: 1232787467
+    Data3: 1981663379
+    Data4: 2067379185
+  Banks:
+  - {fileID: 4799842481495579374}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 106285
+--- !u!114 &-4137261554089627542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DMR SFX/AWPShot
+  m_EditorClassIdentifier: 
+  Path: event:/DMR SFX/AWPShot
+  Guid:
+    Data1: -1420986536
+    Data2: 1256022234
+    Data3: -1665743222
+    Data4: -1875271520
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3634127272510624797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun SFX/Tavar12Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Shotgun SFX/Tavar12Shot
+  Guid:
+    Data1: -1111362001
+    Data2: 1095237623
+    Data3: 1156863390
+    Data4: -1909735664
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2897144358161198407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player Sounds.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Player Sounds.bank
+  Name: Player Sounds
+  StudioPath: bank:/Player Sounds
+  lastModified: 638250524343280292
+  FileSizes:
+  - Name: Desktop
+    Value: 20032
+  Exists: 1
+--- !u!114 &-2791224040586517119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DMR SFX/M4SNShot
+  m_EditorClassIdentifier: 
+  Path: event:/DMR SFX/M4SNShot
+  Guid:
+    Data1: -1826354663
+    Data2: 1129430436
+    Data3: -125452625
+    Data4: -1659832398
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2290231231162456002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault Rifle SFX/M416Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Assault Rifle SFX/M416Shot
+  Guid:
+    Data1: -597870300
+    Data2: 1197196025
+    Data3: 1528668838
+    Data4: 1224630682
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1489873722919898871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638290939712850706
+  FileSizes:
+  - Name: Desktop
+    Value: 2100
+  Exists: 1
+--- !u!114 &-1235031196030232032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638290939712830451
+  FileSizes:
+  - Name: Desktop
+    Value: 3744
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1489873722919898871}
+  - {fileID: 5267590813340436311}
+  - {fileID: -1235031196030232032}
+  - {fileID: -2897144358161198407}
+  - {fileID: 4799842481495579374}
+  - {fileID: -6368594859836339650}
+  EditorEvents:
+  - {fileID: 7415544350706351959}
+  - {fileID: 7496370450599450913}
+  - {fileID: -2791224040586517119}
+  - {fileID: -8292858535027201176}
+  - {fileID: -2290231231162456002}
+  - {fileID: -5717815014270201585}
+  - {fileID: -4137261554089627542}
+  - {fileID: -7821182560437654268}
+  - {fileID: -6981037326780486125}
+  - {fileID: 3262910922273283312}
+  - {fileID: 5312109347081773052}
+  - {fileID: -8996163802417698115}
+  - {fileID: 6356236354375811228}
+  - {fileID: 8136545624588104194}
+  - {fileID: 2435142145121730710}
+  - {fileID: -5496187414169040083}
+  - {fileID: 6559760887157919113}
+  - {fileID: -3634127272510624797}
+  - {fileID: 8457330246393237761}
+  - {fileID: 7514351558087047948}
+  - {fileID: 7980838349684444601}
+  - {fileID: 2198866202717057837}
+  - {fileID: 3936702047206864159}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1235031196030232032}
+  StringsBanks:
+  - {fileID: -1489873722919898871}
+  cacheTime: 638290939713646119
+  cacheVersion: 131605
+--- !u!114 &2198866202717057837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy SFX/Boss SFX/Talos SFX/TalosSlam
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy SFX/Boss SFX/Talos SFX/TalosSlam
+  Guid:
+    Data1: 1612213151
+    Data2: 1133736832
+    Data3: -1558172543
+    Data4: -2069676603
+  Banks:
+  - {fileID: -6368594859836339650}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2435142145121730710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/StarSpawnCultistTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/StarSpawnCultistTheme
+  Guid:
+    Data1: -671633560
+    Data2: 1309682215
+    Data3: -1749471861
+    Data4: -622774977
+  Banks:
+  - {fileID: 4799842481495579374}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 131787
+--- !u!114 &3262910922273283312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Assault Rifle SFX/AK47Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Assault Rifle SFX/AK47Shot
+  Guid:
+    Data1: -1675106108
+    Data2: 1218693645
+    Data3: -1859855709
+    Data4: -1698717040
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3936702047206864159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy SFX/Boss SFX/Talos SFX/TalosWindup
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy SFX/Boss SFX/Talos SFX/TalosWindup
+  Guid:
+    Data1: -2117126694
+    Data2: 1129479075
+    Data3: -3709521
+    Data4: -666417114
+  Banks:
+  - {fileID: -6368594859836339650}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4799842481495579374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638271093089331440
+  FileSizes:
+  - Name: Desktop
+    Value: 3278240
+  Exists: 1
+--- !u!114 &5267590813340436311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Gunshots.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/zlind/Documents/FMOD Studio/STANAG/Build/Desktop/Gunshots.bank
+  Name: Gunshots
+  StudioPath: bank:/Gunshots
+  lastModified: 638271112437819689
+  FileSizes:
+  - Name: Desktop
+    Value: 209664
+  Exists: 1
+--- !u!114 &5312109347081773052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SMG SFX/MP5Shot
+  m_EditorClassIdentifier: 
+  Path: event:/SMG SFX/MP5Shot
+  Guid:
+    Data1: -2082555192
+    Data2: 1262200496
+    Data3: -495434831
+    Data4: -1539584304
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6356236354375811228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pistol SFX/DeagleShot
+  m_EditorClassIdentifier: 
+  Path: event:/Pistol SFX/DeagleShot
+  Guid:
+    Data1: 1191995104
+    Data2: 1161785784
+    Data3: -586272582
+    Data4: -960615186
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6559760887157919113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun SFX/SPAS12Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Shotgun SFX/SPAS12Shot
+  Guid:
+    Data1: -1354118391
+    Data2: 1239254981
+    Data3: -709181259
+    Data4: -192420043
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7415544350706351959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerFootsteps
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerFootsteps
+  Guid:
+    Data1: 769176230
+    Data2: 1325303131
+    Data3: -1422265179
+    Data4: 1291030920
+  Banks:
+  - {fileID: -2897144358161198407}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 450
+--- !u!114 &7496370450599450913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnemyBullet
+  m_EditorClassIdentifier: 
+  Path: event:/EnemyBullet
+  Guid:
+    Data1: -1738359299
+    Data2: 1090138927
+    Data3: -1393975909
+    Data4: -951408777
+  Banks:
+  - {fileID: -1235031196030232032}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7514351558087047948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun SFX/BoomstickShot
+  m_EditorClassIdentifier: 
+  Path: event:/Shotgun SFX/BoomstickShot
+  Guid:
+    Data1: -1350218074
+    Data2: 1171382232
+    Data3: 691639219
+    Data4: -1178473977
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7980838349684444601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun SFX/Model870
+  m_EditorClassIdentifier: 
+  Path: event:/Shotgun SFX/Model870
+  Guid:
+    Data1: 1879727040
+    Data2: 1172707312
+    Data3: -84980294
+    Data4: 286272207
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8136545624588104194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SMG SFX/P90Shot
+  m_EditorClassIdentifier: 
+  Path: event:/SMG SFX/P90Shot
+  Guid:
+    Data1: -1633375501
+    Data2: 1300282255
+    Data3: -1384847722
+    Data4: -423139446
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8457330246393237761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Shotgun SFX/BP917Shot
+  m_EditorClassIdentifier: 
+  Path: event:/Shotgun SFX/BP917Shot
+  Guid:
+    Data1: -1956882020
+    Data2: 1241573771
+    Data3: -1055395423
+    Data4: -671257060
+  Banks:
+  - {fileID: 5267590813340436311}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

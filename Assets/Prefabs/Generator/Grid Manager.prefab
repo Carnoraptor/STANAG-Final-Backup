@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7902328772105020003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7902328772105020001}
+  - component: {fileID: 7902328772105020002}
+  m_Layer: 0
+  m_Name: Grid Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7902328772105020001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902328772105020003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5888602, y: 6.4457564, z: 0.0011005625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7902328772105020002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902328772105020003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bf0fdfb4cf51043a7cfc443b85de72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 220
+  height: 220
+  tilePrefab: {fileID: -5932598154471374586, guid: 0b8f7acaf8170224e9e051c3e40d4869, type: 3}
+  cam: {fileID: 0}
+  maxRooms: 18
+  minRooms: 12
+  tileDim: 20
+  midTile: {fileID: 0}
+  LWayRooms:
+  - {fileID: 1703040822814473851, guid: 664b93d9476e4bd478e93d88acf7d68c, type: 3}
+  - {fileID: 3350136936330415088, guid: c1813a89350c857448a7c989ded07289, type: 3}
+  RWayRooms:
+  - {fileID: 1848770581741435439, guid: 143ab390628ffc244a332068e61a087b, type: 3}
+  - {fileID: 3022398275489603750, guid: 13079b8b06638024a9b927406fb6c70b, type: 3}
+  UWayRooms:
+  - {fileID: 6228041150823591311, guid: a0e139db6f0163d46a03c5b6a38fce3b, type: 3}
+  - {fileID: 2040119356062527759, guid: 3156611c16737de409362f8106aa4389, type: 3}
+  DWayRooms:
+  - {fileID: 3603285513302374912, guid: 49ffc1b86a058124a8cd65d671883f83, type: 3}
+  - {fileID: 8013330002575237300, guid: cd0e9c3f6ea726847a1dc6f888f7704b, type: 3}
+  LUWayRooms:
+  - {fileID: 4152842660254704961, guid: 511184dee50dccb4e9970ffe9e7949a8, type: 3}
+  - {fileID: 4558451989995085515, guid: 2d57901bbfaaf3645ac8bd240ed229d5, type: 3}
+  - {fileID: 5069697974355744782, guid: 38f6433e805cceb419763540aa6bfa23, type: 3}
+  - {fileID: 7314616074121499456, guid: 113cfb9bf5f1a1341bca63f3eee10808, type: 3}
+  LDWayRooms:
+  - {fileID: 8136502374292439225, guid: 97cbbdc794389344eb45ae3f234241be, type: 3}
+  - {fileID: 8759427829260883070, guid: 52f48241103a0aa488f19f88d0d8f61c, type: 3}
+  - {fileID: 5176216147763121451, guid: 3b5a137f4b1d9fc4fb43379c099782c7, type: 3}
+  - {fileID: 3719233308667936667, guid: 683f74cd449406f4ebf1c08d1c7e495c, type: 3}
+  RLWayRooms:
+  - {fileID: 209597757475381736, guid: 7003218ff9cda884585cc9c445e900cb, type: 3}
+  RUWayRooms:
+  - {fileID: 1308364061333726082, guid: aadaade03c27a4f4fb65331840a7a60d, type: 3}
+  RDWayRooms:
+  - {fileID: 7782948943160225699, guid: c17c941ffa74e7c439879920cbb38d12, type: 3}
+  UDWayRooms:
+  - {fileID: 5126746404223535004, guid: 867f9c765962b7a429139ccc4d5d6074, type: 3}
+  RLUWayRooms:
+  - {fileID: 4732608789815363043, guid: 6fad3dd73d33b7f4cbdd9f5331d5e18e, type: 3}
+  RUDWayRooms:
+  - {fileID: 4954617290244890368, guid: 58b85f6438b15fb46a30ceb994f41028, type: 3}
+  LUDWayRooms:
+  - {fileID: 2405812496180420450, guid: af728373e5e66234583fbc9bb0262bfa, type: 3}
+  - {fileID: 8975219430606810388, guid: 87e3f2e4474463b4881b247d33ec4d76, type: 3}
+  - {fileID: 5233704281573171223, guid: 107a848818387e140909a95e4edc2e05, type: 3}
+  - {fileID: 6582083107509990056, guid: 9ea594ca6fb24044192e9b282fa4005d, type: 3}
+  RLDWayRooms:
+  - {fileID: 6924398900697868907, guid: f8cb71f20ff30a3429af3129d91df72b, type: 3}
+  RLUDWayRooms:
+  - {fileID: 6672583509402965645, guid: ad5c3ecfa09754941b5ad9aef3a0b8aa, type: 3}
+  hasFinalLayout: 0

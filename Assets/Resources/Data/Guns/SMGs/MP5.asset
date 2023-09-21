@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: MP5
+  m_EditorClassIdentifier: 
+  _gunName: MP5
+  _gunType: 3
+  gunID: 0
+  _gunDesc: ' It''s not the prettiest little bullet hose, but it gets the job done.
+    Something must be said for its resilience in such an alien environment.'
+  _damage: 13
+  _fireRate: 10
+  _inaccuracy: 8
+  _armorPen: 3
+  _bulletSpeed: 12
+  _radius: 0.7
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 82bdda123e90d094a838fa39b157c943, type: 2}
+  _fireMode: 1
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: a8160f6930ccc1a45b084915d079cdf5, type: 3}
+  _bulletOriginOffset: {x: 0.4939, y: 0.125}
+  _shootSFX:
+    Guid:
+      Data1: -2082555192
+      Data2: 1262200496
+      Data3: -495434831
+      Data4: -1539584304
+    Path: event:/SMG SFX/MP5Shot
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 1
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0.5, y: 0.125}
+  _opticLoc: {x: -0.0939, y: 0.1868}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: Magnum
+  m_EditorClassIdentifier: 
+  _gunName: Magnum
+  _gunType: 0
+  gunID: 3
+  _gunDesc: ' This is an extreme oddity. It''s gagantuan to hold, but it can do wonders.'
+  _damage: 45
+  _fireRate: 6.2
+  _inaccuracy: 5
+  _armorPen: 45
+  _bulletSpeed: 17
+  _radius: 0.5
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 5056fe3480a1a944eb3776a7a681a61d, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: ef99af96f469d864baa73bd2139b622d, type: 3}
+  _bulletOriginOffset: {x: 0.4218, y: 0.155}
+  _shootSFX:
+    Guid:
+      Data1: 1191995104
+      Data2: 1161785784
+      Data3: -586272582
+      Data4: -960615186
+    Path: event:/Pistol SFX/DeagleShot
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 1
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0.49994, y: 0.295}
+  _opticLoc: {x: 0.3126, y: 0.3749}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

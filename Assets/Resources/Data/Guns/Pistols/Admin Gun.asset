@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: Admin Gun
+  m_EditorClassIdentifier: 
+  _gunName: Admin Gun
+  _gunType: 0
+  gunID: 0
+  _gunDesc: 
+  _damage: 9999
+  _fireRate: 999999
+  _inaccuracy: 0
+  _armorPen: 9999
+  _bulletSpeed: 50
+  _radius: 0.5
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 5056fe3480a1a944eb3776a7a681a61d, type: 2}
+  _fireMode: 1
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 572c0b57c08551a40a762b0eb0e03508, type: 3}
+  _bulletOriginOffset: {x: 0.422, y: 0.1557}
+  _shootSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 1
+  _hasLowerRailSlot: 1
+  _hasSideRailSlot: 1
+  _muzzleLoc: {x: 0, y: 0}
+  _opticLoc: {x: 0, y: 0}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

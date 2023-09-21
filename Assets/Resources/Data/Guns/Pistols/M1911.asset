@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3eb5d04faef546866fe6ea930aa3d, type: 3}
+  m_Name: M1911
+  m_EditorClassIdentifier: 
+  _gunName: M1911
+  _gunType: 0
+  gunID: 0
+  _gunDesc: ' The M1911 is all too commonly found in the pockets and holsters of
+    decaying cadavers. Not for lack of it''s own merit.'
+  _damage: 18
+  _fireRate: 4
+  _inaccuracy: 4
+  _armorPen: 2
+  _bulletSpeed: 12
+  _radius: 0.5
+  _bulletsAtOnce: 1
+  _bullet: {fileID: 11400000, guid: 82bdda123e90d094a838fa39b157c943, type: 2}
+  _fireMode: 0
+  _bulletPrefab: {fileID: 738133556534316228, guid: 26f27ce99dbd9b84daf9e2ba226e01dc, type: 3}
+  _gunSprite: {fileID: 21300000, guid: 21de46f8c5d405f4f9531eb178b77bb4, type: 3}
+  _bulletOriginOffset: {x: 0.3579, y: 0.1562}
+  _shootSFX:
+    Guid:
+      Data1: -1769758679
+      Data2: 1168555120
+      Data3: 523383179
+      Data4: -124212584
+    Path: event:/Pistol SFX/M1911Shot
+  _gunSmoke: {fileID: 98603603995530072, guid: ea1600e71c4ebae43884eeb060fe269b, type: 3}
+  _hasMuzzleSlot: 1
+  _hasOpticSlot: 0
+  _hasLowerRailSlot: 0
+  _hasSideRailSlot: 0
+  _muzzleLoc: {x: 0.3753, y: 0.1562}
+  _opticLoc: {x: 0, y: 0}
+  _lowerRailLoc: {x: 0, y: 0}
+  _sideRailLoc: {x: 0, y: 0}
+  btwnBulletInBurstTime: 0

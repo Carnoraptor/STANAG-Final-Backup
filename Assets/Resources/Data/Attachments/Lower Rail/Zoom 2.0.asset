@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa05564a493a874295ecb6e654720e9, type: 3}
+  m_Name: Zoom 2.0
+  m_EditorClassIdentifier: 
+  _attachmentName: Zoom 2.0
+  _attachmentType: 2
+  _attachmentEffectDesc: Causes bullets to accelerate over their lifetime.
+  _attachmentDescription: An ingenious invention. The device uses magnetism to cause
+    bullets to spin at extreme speeds, leading to high acceleration.
+  _attachmentID: 0
+  _damageMod: 0
+  _fireRateMod: 0
+  _accuracyMod: 0
+  _armorPenMod: 0
+  _bulletSpeedMod: 0
+  _bulletsAtOnceMod: 0
+  _damageModFlat: 0
+  _fireRateModFlat: 0
+  _accuracyModFlat: 0
+  _armorPenModFlat: 0
+  _bulletSpeedModFlat: 0
+  _bulletsAtOnceModFlat: 0
+  _editsBullet: 0
+  _newBulletPrefab: {fileID: 0}
+  _attachmentSprite: {fileID: 21300000, guid: 849d0cda6fa521d4baac7834af0c25c4, type: 3}
+  _isAnimated: 0
+  _anim: {fileID: 0}
+  altersBulletMovementBehavior: 1
